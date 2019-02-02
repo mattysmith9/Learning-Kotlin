@@ -1,5 +1,5 @@
 # Learning-Kotlin
-Kotlin repo for an online class and tutorials
+#### Kotlin Dojo for an online class, tutorials and other learning materials.
 
 # (MVC architecture) Tutorial/App walk through via
 www.raywenderlich.com
