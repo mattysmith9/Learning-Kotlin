@@ -1,8 +1,8 @@
 ## Kotlin Dojo for an online class, tutorials and other learning materials.
 
-### master branch
+### Master branch
 Kotlin basics and snippets
 
-### tutorial branch
+### Tutorial branch
 Basic web app implementing **MVC** via 
 - www.raywenderlich.com
