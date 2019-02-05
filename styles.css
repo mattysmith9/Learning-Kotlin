@@ -1,5 +1,5 @@
 body {
-    background: #353c43;
+    background: #b4bcc3;
     font-family: Roboto, sans-serif;
     text-align: center;
 }
@@ -16,12 +16,11 @@ body {
     left: 0;
     width: 100%;
     height: 46px;
-    color: #fff;
+    color: #ffffff;
     font-size: 24px;
-    background-color: #1976D2;
+    background-color: #b4bcc3;
     text-align: left;
     z-index: 1;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.28);
 }
 
 .root {
@@ -34,13 +33,41 @@ body {
     display: inline-block;
 }
 
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 225px;
+  background-color: #b4bcc3;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.sidebar a.active {
+  background-color: #b4bcc3;
+  color: #b4bcc3;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #b4bcc3;
+  color: white;
+}
+
 .cover-image {
     height: 202px;
     width: 262px;
 }
 
 .card {
-    background: #2196F3;
+    background: #63707b;
     border-radius: 2px;
     display: inline-block;
     height: 390;
@@ -49,6 +76,7 @@ body {
     position: relative;
     padding: 10px;
     padding-top: 4px;
+    padding-left: 1rem;
     position:relative;
 }
 

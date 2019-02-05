@@ -35,6 +35,7 @@ class BookStorePage(private val presenter: BookStoreContract.Presenter) :
     }
 
     private val loader = document.getElementById("loader") as HTMLDivElement
+    private val sidebar = document.getElementById("sidebar") as HTMLDivElement
     private val content = document.getElementById("content") as HTMLDivElement
     private val cardBuilder = CardBuilder()
 
